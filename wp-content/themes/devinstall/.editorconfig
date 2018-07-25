@@ -10,8 +10,9 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[*.php]
-indent_size = 4
-
-[resources/views/**.php]
+[{*.php,*.html}]
+indent_style = tab
 indent_size = 2
+
+[{*.txt,wp-config-sample.php,wp-config.php}]
+end_of_line = crlf
