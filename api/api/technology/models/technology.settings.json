@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "disciplines",
+  "collectionName": "technologies",
   "info": {
-    "name": "Discipline",
-    "description": ""
+    "name": "Technology"
   },
   "options": {
     "increments": true,
@@ -14,8 +13,8 @@
     "title": {
       "type": "string"
     },
-    "technology": {
-      "model": "technology"
+    "description": {
+      "type": "text"
     }
   }
 }

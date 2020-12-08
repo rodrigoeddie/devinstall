@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "formations",
   "info": {
-    "name": "Formation"
+    "name": "Formation",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,6 +17,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "disciplines": {
+      "collection": "discipline"
     }
   }
 }
