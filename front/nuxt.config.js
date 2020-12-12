@@ -31,6 +31,7 @@ export default {
   modules: [
   ],
 
+
   apollo: {
     clientConfigs: {
       default: {
